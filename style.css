@@ -1,0 +1,95 @@
+#{
+    background: #968A53;
+    font-family: "Inter", sans-serif;
+    font-weight: 680;
+    font-size: 85px;
+    line-height: 180%;
+}
+   
+.logoAlura {
+    margin-left: 20px;
+    padding-top: 20px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.text-area {
+    border: none;
+    color: #522728;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+.placeholder { color: #19191D; }
+    .text-area:focus {
+      outline: none;
+      font-size: 15px;
+    }
+
+    
+.mensagem {
+    background: #968A53;
+    background-image: url(/imagens/detetive\ png.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+    color: #2A1B1B;
+    margin-left: 80px;
+    margin-top: 60px;
+    padding-left: 60px;
+    position: fixed;
+}    
+.mensagem:focus {
+    outline: none;
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+.btn-desencriptar {
+    background: #5C2211;
+    border: 1PX solid #F1E393;
+    border-radius: 24px;
+    color: #A6CCF8;
+    cursor: pointer;
+    height: 67PX;
+    margin-left: 30px;
+    width: 328PX;
+}
+
+.btn-encriptar {
+    background-color: #5C2211;
+    border: 1px solid #F1E393;
+    border-radius: 24px;
+    color: #A6CCF8;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #ED1611;
+    font-size: 30px;
+}
+
+
+
+
+
